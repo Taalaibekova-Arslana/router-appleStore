@@ -1,0 +1,39 @@
+.Ipad {
+	margin: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	.card {
+		padding: 40px;
+		margin-top: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 20px;
+		width: 350px;
+		height: 500px;
+		background-color: white;
+		border-radius: 30px;
+		box-shadow: 1px 0 0 0 black;
+	}
+}
+.card {
+	&:hover {
+		transform: scale(1.05);
+		box-shadow: 1px 1px 1px 1px black;
+	}
+}
+
+button {
+	width: 50px;
+	height: 30px;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
